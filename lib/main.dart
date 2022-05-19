@@ -31,7 +31,7 @@ void main() {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Image.asset(
-                "assets/images/dishot.png",
+                "../assets/images/dishot.png",
                 height: 100,
                 width: 100,
               ),
