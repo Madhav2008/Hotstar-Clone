@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
         // Text('srinath', style: TextStyle(color: Colors.red, fontSize: 20)),
         CarouselSlider(
           items: [
-            Image.asset('../assets/images/banner1.webp'),
+            Image.asset('../assets/images/banner1.webp',),
             Image.asset('../assets/images/banner2.webp'),
             Image.asset('../assets/images/banner3.webp'),
             Image.asset('../assets/images/banner4.webp'),
