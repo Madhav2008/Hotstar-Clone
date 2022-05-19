@@ -63,7 +63,7 @@ class _MyAppState extends State<MyApp> {
       padding: EdgeInsets.all(0),
       shrinkWrap: true,
       children: [
-        // Text('srinath', style: TextStyle(color: Colors.red, fontSize: 20)),
+        // Text('Madhav', style: TextStyle(color: Colors.red, fontSize: 20)),
         CarouselSlider(
           items: [
             Image.asset(
@@ -257,7 +257,7 @@ class _MarvelState extends State<Marvel> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'I..........AM.......SRINATH',
+                  'I..........AM.......Madhav',
                   style: TextStyle(color: Colors.red, fontSize: 20),
                 ),
                 Icon(Icons.search)
@@ -651,7 +651,7 @@ class _IronmanState extends State<Ironman> {
         appBar: AppBar(
           backgroundColor: Colors.black,
           title: Text(
-            'I.......AM....SRINATH',
+            'I.......AM....Madhav',
             style: TextStyle(color: Colors.red),
           ),
           centerTitle: true,
@@ -771,7 +771,7 @@ class _MyDrawerState extends State<MyDrawer> {
                   radius: 20,
                 ),
                 title: Text(
-                  'srinath reddy sadipiralla',
+                  'Madhav reddy sadipiralla',
                   style: TextStyle(color: Colors.white),
                 ),
                 subtitle: Text(
