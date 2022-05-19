@@ -1,1 +1,1 @@
-# Disney+
+# Disney+ Hotstar
