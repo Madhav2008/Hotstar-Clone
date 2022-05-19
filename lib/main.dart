@@ -69,7 +69,6 @@ class _MyAppState extends State<MyApp> {
             Image.asset('../assets/images/banner1.webp'),
             Image.asset('../assets/images/banner2.webp'),
             Spacer(),
-            Spacer(),
             Image.asset('../assets/images/banner3.webp'),
             Image.asset('../assets/images/banner4.webp'),
           ],
