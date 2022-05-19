@@ -72,8 +72,8 @@ class _MyAppState extends State<MyApp> {
             Spacer(),
             Image.asset('../assets/images/banner3.webp'),
             Spacer(),
-            Spacer(),
             Image.asset('../assets/images/banner4.webp'),
+            Spacer(),
           ],
           options: CarouselOptions(
             autoPlay: true, viewportFraction: 0.8,
