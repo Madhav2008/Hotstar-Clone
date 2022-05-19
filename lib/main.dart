@@ -69,7 +69,7 @@ class _MyAppState extends State<MyApp> {
             Image.asset(
               '../assets/images/banner1.webp',
             ),
-            SizedBox(width: ,)
+            SizedBox(wi)
             Image.asset(
               '../assets/images/banner2.webp',
             ),
