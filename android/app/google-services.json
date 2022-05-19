@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "924215701808",
+    "project_id": "hotstar-clone-d02c3",
+    "storage_bucket": "hotstar-clone-d02c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924215701808:android:c1e64fc9cf638b950998f5",
+        "android_client_info": {
+          "package_name": "com.example.hotstar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924215701808-pivj331mcalssgtas739m9sghm9oc81k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbNMfL9Ukfht0ERysNFjwCyrg0VGG5R-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924215701808-pivj331mcalssgtas739m9sghm9oc81k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
