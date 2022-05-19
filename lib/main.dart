@@ -67,7 +67,6 @@ class _MyAppState extends State<MyApp> {
         CarouselSlider(
           items: [
             Image.asset('../assets/images/banner1.webp'),
-            Spacer(),
             Image.asset('../assets/images/banner2.webp'),
             Spacer(),
             Image.asset('../assets/images/banner3.webp'),
