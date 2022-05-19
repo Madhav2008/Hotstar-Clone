@@ -71,10 +71,11 @@ class _MyAppState extends State<MyApp> {
             Image.asset('../assets/images/banner3.webp'),
             Image.asset('../assets/images/banner4.webp'),
           ],
-          options: CarouselOptions(autoPlay: true, viewportFraction: 0.8,
-              // autoPlayAnimationDuration: Duration(seconds: 1),
-              // autoPlayInterval: Duration(milliseconds: 1),
-              ),
+          options: CarouselOptions(
+            autoPlay: true, viewportFraction: 0.8,
+            // autoPlayAnimationDuration: Duration(seconds: 1),
+            // autoPlayInterval: Duration(milliseconds: 1),
+          ),
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
