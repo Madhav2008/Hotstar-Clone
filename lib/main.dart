@@ -105,7 +105,7 @@ class _MyAppState extends State<MyApp> {
             ),
             FloatingActionButton(
               shape: BeveledRectangleBorder(
-                  borderRadius: BorderRadius.circular(3)),
+                  borderRadius: BorderRadius.circular(3),),
               backgroundColor: Colors.blue[900],
               onPressed: () {
                 Navigator.pushNamed(context, '/marvel');
@@ -691,7 +691,6 @@ class _IronmanState extends State<Ironman> {
             ),
             Container(
               alignment: Alignment.centerLeft,
-     
               width: 200,
               height: 100,
               child: Image.asset(
