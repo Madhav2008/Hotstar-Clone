@@ -771,7 +771,7 @@ class _MyDrawerState extends State<MyDrawer> {
                   radius: 20,
                 ),
                 title: Text(
-                  'Madhav reddy sadipiralla',
+                  'Madhav Arora',
                   style: TextStyle(color: Colors.white),
                 ),
                 subtitle: Text(
