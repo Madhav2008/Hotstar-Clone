@@ -80,7 +80,7 @@ class _MyAppState extends State<MyApp> {
             ),
           ],
           options: CarouselOptions(
-            autoPlay: true, viewportFraction: 0.8,disableCenter: true
+            autoPlay: true, viewportFraction: 0.8,disableCenter: true,
             // autoPlayAnimationDuration: Duration(seconds: 1),
             // autoPlayInterval: Duration(milliseconds: 1),
           ),
