@@ -578,7 +578,7 @@ class _MarvelState extends State<Marvel> {
               ),
             ],
           ),
-        ));
+        ),);
   }
 }
 
