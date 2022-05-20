@@ -16,28 +16,29 @@ void main() {
     },
     debugShowCheckedModeBanner: false,
     home: Scaffold(
-        body: MyApp(),
-        drawer: MyDrawer(),
-        bottomNavigationBar: BotNav(),
+      body: MyApp(),
+      drawer: MyDrawer(),
+      bottomNavigationBar: BotNav(),
+      backgroundColor: Colors.black,
+      appBar: AppBar(
         backgroundColor: Colors.black,
-        appBar: AppBar(
-          backgroundColor: Colors.black,
-          title: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Image.asset(
-                "../assets/images/dishot.png",
-                height: 100,
-                width: 100,
-              ),
-              FloatingActionButton(
-                onPressed: () {},
-                child: Icon(Icons.search),
-                backgroundColor: Colors.black,
-              )
-            ],
-          ),
-        ),),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Image.asset(
+              "../assets/images/dishot.png",
+              height: 100,
+              width: 100,
+            ),
+            FloatingActionButton(
+              onPressed: () {},
+              child: Icon(Icons.search),
+              backgroundColor: Colors.black,
+            )
+          ],
+        ),
+      ),
+    ),
   ));
 }
 
