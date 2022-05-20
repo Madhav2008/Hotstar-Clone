@@ -1055,7 +1055,7 @@ class _LangState extends State<Lang> {
                       Text(
                         'Malayalam',
                         style: TextStyle(color: Colors.white),
-                      )
+                      ),
                     ],
                   )
                 ]),
