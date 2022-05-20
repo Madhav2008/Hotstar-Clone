@@ -678,7 +678,7 @@ class _NatState extends State<Nat> {
           ),
           backgroundColor: Colors.black,
           body: Center(
-              child: Text('Natgeo page', style: TextStyle(color: Colors.red))),
+              child: Text('Natgeo page', style: TextStyle(color: Colors.red),)),
         ));
   }
 }
