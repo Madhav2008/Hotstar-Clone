@@ -999,24 +999,27 @@ class _LangState extends State<Lang> {
                     ),
                   ],
                 ),
-                Stack(alignment: AlignmentDirectional.center, children: [
-                  Container(
-                    child: Image.asset('assets/images/lang4.webp'),
-                    width: 150,
-                    height: 100,
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/PCTV-marathi.png',
-                      ),
-                      Text(
-                        'Marathi',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ],
-                  ),
-                ],),
+                Stack(
+                  alignment: AlignmentDirectional.center,
+                  children: [
+                    Container(
+                      child: Image.asset('assets/images/lang4.webp'),
+                      width: 150,
+                      height: 100,
+                    ),
+                    Column(
+                      children: [
+                        Image.asset(
+                          'assets/images/PCTV-marathi.png',
+                        ),
+                        Text(
+                          'Marathi',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
                 Stack(alignment: AlignmentDirectional.center, children: [
                   Container(
                     child: Image.asset('assets/images/lang5.webp'),
