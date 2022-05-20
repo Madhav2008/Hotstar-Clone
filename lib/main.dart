@@ -950,7 +950,7 @@ class _LangState extends State<Lang> {
                       Text(
                         'Hindi',
                         style: TextStyle(color: Colors.white),
-                      )
+                      ),
                     ],
                   )
                 ]),
