@@ -1195,9 +1195,11 @@ class _BotNavState extends State<BotNav> {
             icon: SizedBox(
               height: 30,
               width: 30,
-              child: ImageIcon(AssetImage(
-                'assets/images/disicon.png',
-              ),),
+              child: ImageIcon(
+                AssetImage(
+                  'assets/images/disicon.png',
+                ),
+              ),
             ),
             label: 'Disney+'),
         BottomNavigationBarItem(icon: Icon(Icons.movie), label: 'Movies'),
