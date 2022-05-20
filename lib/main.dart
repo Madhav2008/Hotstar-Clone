@@ -258,327 +258,328 @@ class _MarvelState extends State<Marvel> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          appBar: AppBar(
-            centerTitle: true,
-            backgroundColor: Colors.black,
-            title: Row(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.black,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                'I..........AM.......Madhav',
+                style: TextStyle(color: Colors.red, fontSize: 20),
+              ),
+              Icon(Icons.search)
+            ],
+          ),
+        ),
+        backgroundColor: Colors.black,
+        body: ListView(
+          children: [
+            Image.asset('assets/images/marvelbanner.webp'),
+            Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'I..........AM.......Madhav',
-                  style: TextStyle(color: Colors.red, fontSize: 20),
+                  'Marvel Cinematic Universe',
+                  style: TextStyle(color: Colors.white),
                 ),
-                Icon(Icons.search)
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'more',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
               ],
             ),
-          ),
-          backgroundColor: Colors.black,
-          body: ListView(
-            children: [
-              Image.asset('assets/images/marvelbanner.webp'),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Marvel Cinematic Universe',
+            CarouselSlider(
+              items: [
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/blackwidow.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/whatif.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/endgame.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/fws.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/wv.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/loki.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/capmar.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/antman2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/infinity.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/bp.webp'),
+                ),
+              ],
+              options: CarouselOptions(
+                enableInfiniteScroll: false,
+                viewportFraction: 0.3,
+                initialPage: 1,
+              ),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'MCU phase 1',
+                  style: TextStyle(color: Colors.white),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'more',
                     style: TextStyle(color: Colors.white),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'more',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                ],
+                ),
+              ],
+            ),
+            CarouselSlider(
+              items: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/marvel/ironman');
+                  },
+                  child: Image.asset('assets/images/ironman1.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/ironman2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/thor2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/cap2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/avengers.webp'),
+                ),
+              ],
+              options: CarouselOptions(
+                enableInfiniteScroll: false,
+                viewportFraction: 0.3,
+                initialPage: 1,
               ),
-              CarouselSlider(
-                items: [
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/blackwidow.webp'),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'MCU phase 2',
+                  style: TextStyle(color: Colors.white),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'more',
+                    style: TextStyle(color: Colors.white),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/whatif.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/endgame.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/fws.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/wv.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/loki.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/capmar.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/antman2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/infinity.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/bp.webp'),
-                  ),
-                ],
-                options: CarouselOptions(
+                ),
+              ],
+            ),
+            CarouselSlider(
+              items: [
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/ironman3.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/thor1.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/cap1.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/gog.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/ultron.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/antman1.webp'),
+                ),
+              ],
+              options: CarouselOptions(
                   enableInfiniteScroll: false,
                   viewportFraction: 0.3,
-                  initialPage: 1,
+                  initialPage: 1),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'MCU phase 3&4',
+                  style: TextStyle(color: Colors.white),
                 ),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'MCU phase 1',
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'more',
                     style: TextStyle(color: Colors.white),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'more',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                ],
-              ),
-              CarouselSlider(
-                items: [
-                  TextButton(
-                    onPressed: () {
-                      Navigator.pushNamed(context, '/marvel/ironman');
-                    },
-                    child: Image.asset('assets/images/ironman1.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/ironman2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/thor2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/cap2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/avengers.webp'),
-                  ),
-                ],
-                options: CarouselOptions(
-                  enableInfiniteScroll: false,
-                  viewportFraction: 0.3,
-                  initialPage: 1,
                 ),
+              ],
+            ),
+            CarouselSlider(
+              items: [
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/civil.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/doc.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/gog2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/ragnarok.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/bp.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/infinity.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/antman2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/capmar.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/endgame.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/wv.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/fws.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/loki.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/whatif.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/blackwidow.webp'),
+                ),
+              ],
+              options: CarouselOptions(
+                enableInfiniteScroll: false,
+                viewportFraction: 0.3,
+                initialPage: 1,
               ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'MCU phase 2',
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Marvel Legacy Animation',
+                  style: TextStyle(color: Colors.white),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'more',
                     style: TextStyle(color: Colors.white),
                   ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'more',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                ],
-              ),
-              CarouselSlider(
-                items: [
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/ironman3.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/thor1.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/cap1.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/gog.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/ultron.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/antman1.webp'),
-                  ),
-                ],
-                options: CarouselOptions(
-                    enableInfiniteScroll: false,
-                    viewportFraction: 0.3,
-                    initialPage: 1),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'MCU phase 3&4',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'more',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                ],
-              ),
-              CarouselSlider(
-                items: [
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/civil.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/doc.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/gog2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/ragnarok.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/bp.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/infinity.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/antman2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/capmar.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/endgame.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/wv.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/fws.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/loki.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/whatif.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/blackwidow.webp'),
-                  ),
-                ],
-                options: CarouselOptions(
-                  enableInfiniteScroll: false,
-                  viewportFraction: 0.3,
-                  initialPage: 1,
                 ),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    'Marvel Legacy Animation',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'more',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                  ),
-                ],
-              ),
-              CarouselSlider(
-                items: [
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim1.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim2.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim3.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim4.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim5.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim6.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim7.webp'),
-                  ),
-                  TextButton(
-                    onPressed: () {},
-                    child: Image.asset('assets/images/anim8.webp'),
-                  ),
-                ],
-                options: CarouselOptions(
-                  enableInfiniteScroll: false,
-                  viewportFraction: 0.3,
-                  initialPage: 1,
+              ],
+            ),
+            CarouselSlider(
+              items: [
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim1.webp'),
                 ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim2.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim3.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim4.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim5.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim6.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim7.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/anim8.webp'),
+                ),
+              ],
+              options: CarouselOptions(
+                enableInfiniteScroll: false,
+                viewportFraction: 0.3,
+                initialPage: 1,
               ),
-            ],
-          ),
-        ),);
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
 
