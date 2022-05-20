@@ -1208,10 +1208,11 @@ class _BotNavState extends State<BotNav> {
           label: 'Movies',
         ),
         BottomNavigationBarItem(
-            icon: Icon(
-              Icons.sports_cricket_rounded,
-            ),
-            label: 'Sports',),
+          icon: Icon(
+            Icons.sports_cricket_rounded,
+          ),
+          label: 'Sports',
+        ),
       ],
     );
   }
