@@ -847,13 +847,14 @@ class _MyDrawerState extends State<MyDrawer> {
               ),
             ),
             TextButton(
-                onPressed: () {},
-                child: ListTile(
-                  leading: Text(
-                    'Watchlist',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),),
+              onPressed: () {},
+              child: ListTile(
+                leading: Text(
+                  'Watchlist',
+                  style: TextStyle(color: Colors.white),
+                ),
+              ),
+            ),
             TextButton(
                 onPressed: () {},
                 child: ListTile(
