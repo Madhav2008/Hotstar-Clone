@@ -237,10 +237,11 @@ class _DisneyState extends State<Disney> {
           ),
           backgroundColor: Colors.black,
           body: Center(
-              child: Text(
-            'Disney page',
-            style: TextStyle(color: Colors.red),
-          ),),
+            child: Text(
+              'Disney page',
+              style: TextStyle(color: Colors.red),
+            ),
+          ),
         ));
   }
 }
