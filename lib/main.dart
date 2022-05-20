@@ -646,7 +646,7 @@ class _StarState extends State<Star> {
               child: Text(
             'StarWars page',
             style: TextStyle(color: Colors.red),
-          )),
+          ),),
         ));
   }
 }
