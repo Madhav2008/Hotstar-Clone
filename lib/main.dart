@@ -664,26 +664,27 @@ class _NatState extends State<Nat> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          appBar: AppBar(
-            actions: [
-              FloatingActionButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Icon(Icons.arrow_back),
-              )
-            ],
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          actions: [
+            FloatingActionButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Icon(Icons.arrow_back),
+            )
+          ],
+        ),
+        backgroundColor: Colors.black,
+        body: Center(
+          child: Text(
+            'Natgeo page',
+            style: TextStyle(color: Colors.red),
           ),
-          backgroundColor: Colors.black,
-          body: Center(
-            child: Text(
-              'Natgeo page',
-              style: TextStyle(color: Colors.red),
-            ),
-          ),
-        ),);
+        ),
+      ),
+    );
   }
 }
 
