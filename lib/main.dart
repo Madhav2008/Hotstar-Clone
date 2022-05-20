@@ -223,26 +223,27 @@ class _DisneyState extends State<Disney> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          appBar: AppBar(
-            actions: [
-              FloatingActionButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                child: Icon(Icons.arrow_back),
-              )
-            ],
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          actions: [
+            FloatingActionButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: Icon(Icons.arrow_back),
+            )
+          ],
+        ),
+        backgroundColor: Colors.black,
+        body: Center(
+          child: Text(
+            'Disney page',
+            style: TextStyle(color: Colors.red),
           ),
-          backgroundColor: Colors.black,
-          body: Center(
-            child: Text(
-              'Disney page',
-              style: TextStyle(color: Colors.red),
-            ),
-          ),
-        ),);
+        ),
+      ),
+    );
   }
 }
 
