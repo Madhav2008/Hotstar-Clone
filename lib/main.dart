@@ -1013,7 +1013,7 @@ class _LangState extends State<Lang> {
                       Text(
                         'Marathi',
                         style: TextStyle(color: Colors.white),
-                      )
+                      ),
                     ],
                   )
                 ]),
