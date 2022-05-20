@@ -879,7 +879,7 @@ class _MyDrawerState extends State<MyDrawer> {
               child: ListTile(
                 contentPadding: EdgeInsets.all(5),
                 leading: Icon(Icons.slideshow, color: Colors.white),
-                title: Text('Channels', style: TextStyle(color: Colors.white)),
+                title: Text('Channels', style: TextStyle(color: Colors.white),),
               ),
             ),
             TextButton(
