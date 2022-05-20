@@ -892,7 +892,10 @@ class _MyDrawerState extends State<MyDrawer> {
               child: ListTile(
                 contentPadding: EdgeInsets.all(5),
                 leading: Icon(Icons.translate, color: Colors.white),
-                title: Text('Languages', style: TextStyle(color: Colors.white),),
+                title: Text(
+                  'Languages',
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
               style: TextButton.styleFrom(primary: Colors.white),
             ),
