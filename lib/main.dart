@@ -295,53 +295,54 @@ class _MarvelState extends State<Marvel> {
                 ],
               ),
               CarouselSlider(
-                  items: [
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/blackwidow.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/whatif.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/endgame.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/fws.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/wv.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/loki.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/capmar.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/antman2.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/infinity.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/bp.webp'),
-                    ),
-                  ],
-                  options: CarouselOptions(
-                    enableInfiniteScroll: false,
-                    viewportFraction: 0.3,
-                    initialPage: 1,
-                  ),),
+                items: [
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/blackwidow.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/whatif.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/endgame.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/fws.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/wv.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/loki.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/capmar.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/antman2.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/infinity.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/bp.webp'),
+                  ),
+                ],
+                options: CarouselOptions(
+                  enableInfiniteScroll: false,
+                  viewportFraction: 0.3,
+                  initialPage: 1,
+                ),
+              ),
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Text(
                   'MCU phase 1',
