@@ -957,24 +957,27 @@ class _LangState extends State<Lang> {
                     )
                   ],
                 ),
-                Stack(alignment: AlignmentDirectional.center, children: [
-                  Container(
-                    child: Image.asset('assets/images/lang2.webp'),
-                    width: 150,
-                    height: 100,
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/PCTV-Bengali.png',
-                      ),
-                      Text(
-                        'Bengali',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ],
-                  ),
-                ],),
+                Stack(
+                  alignment: AlignmentDirectional.center,
+                  children: [
+                    Container(
+                      child: Image.asset('assets/images/lang2.webp'),
+                      width: 150,
+                      height: 100,
+                    ),
+                    Column(
+                      children: [
+                        Image.asset(
+                          'assets/images/PCTV-Bengali.png',
+                        ),
+                        Text(
+                          'Bengali',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
                 Stack(alignment: AlignmentDirectional.center, children: [
                   Container(
                     child: Image.asset('assets/images/lang3.webp'),
