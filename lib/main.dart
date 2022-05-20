@@ -1037,7 +1037,7 @@ class _LangState extends State<Lang> {
                       ),
                     ],
                   ),
-                ]),
+                ],),
                 Stack(alignment: AlignmentDirectional.center, children: [
                   Container(
                     child: Image.asset('assets/images/lang6.webp'),
