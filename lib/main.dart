@@ -290,7 +290,7 @@ class _MarvelState extends State<Marvel> {
                     style: TextStyle(color: Colors.white),
                   ),
                 ),
-              ]),
+              ],),
               CarouselSlider(
                   items: [
                     TextButton(
