@@ -525,11 +525,12 @@ class _MarvelState extends State<Marvel> {
                   style: TextStyle(color: Colors.white),
                 ),
                 TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'more',
-                      style: TextStyle(color: Colors.white),
-                    ),)
+                  onPressed: () {},
+                  child: Text(
+                    'more',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                )
               ]),
               CarouselSlider(
                   items: [
