@@ -936,24 +936,27 @@ class _LangState extends State<Lang> {
               spacing: 30,
               alignment: WrapAlignment.spaceAround,
               children: [
-                Stack(alignment: AlignmentDirectional.center, children: [
-                  Container(
-                    child: Image.asset('assets/images/lang1.webp'),
-                    width: 150,
-                    height: 100,
-                  ),
-                  Column(
-                    children: [
-                      Image.asset(
-                        'assets/images/PCTV-hindi.png',
-                      ),
-                      Text(
-                        'Hindi',
-                        style: TextStyle(color: Colors.white),
-                      ),
-                    ],
-                  )
-                ],),
+                Stack(
+                  alignment: AlignmentDirectional.center,
+                  children: [
+                    Container(
+                      child: Image.asset('assets/images/lang1.webp'),
+                      width: 150,
+                      height: 100,
+                    ),
+                    Column(
+                      children: [
+                        Image.asset(
+                          'assets/images/PCTV-hindi.png',
+                        ),
+                        Text(
+                          'Hindi',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ],
+                    )
+                  ],
+                ),
                 Stack(alignment: AlignmentDirectional.center, children: [
                   Container(
                     child: Image.asset('assets/images/lang2.webp'),
