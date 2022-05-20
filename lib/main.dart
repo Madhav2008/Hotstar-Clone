@@ -536,45 +536,46 @@ class _MarvelState extends State<Marvel> {
                 ],
               ),
               CarouselSlider(
-                  items: [
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim1.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim2.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim3.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim4.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim5.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim6.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim7.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/anim8.webp'),
-                    ),
-                  ],
-                  options: CarouselOptions(
-                    enableInfiniteScroll: false,
-                    viewportFraction: 0.3,
-                    initialPage: 1,
-                  ),),
+                items: [
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim1.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim2.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim3.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim4.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim5.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim6.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim7.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/anim8.webp'),
+                  ),
+                ],
+                options: CarouselOptions(
+                  enableInfiniteScroll: false,
+                  viewportFraction: 0.3,
+                  initialPage: 1,
+                ),
+              ),
             ],
           ),
         ));
