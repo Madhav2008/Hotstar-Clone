@@ -648,7 +648,7 @@ class _StarState extends State<Star> {
               style: TextStyle(color: Colors.red),
             ),
           ),
-        ));
+        ),);
   }
 }
 
