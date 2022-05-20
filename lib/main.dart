@@ -771,32 +771,35 @@ class _IronmanState extends State<Ironman> {
               'More Like This',
               style: TextStyle(color: Colors.white),
             ),
-            CarouselSlider(items: [
-              TextButton(
-                onPressed: () {},
-                child: Image.asset('assets/images/ironman3.webp'),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: Image.asset('assets/images/thor1.webp'),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: Image.asset('assets/images/cap1.webp'),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: Image.asset('assets/images/gog.webp'),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: Image.asset('assets/images/ultron.webp'),
-              ),
-              TextButton(
-                onPressed: () {},
-                child: Image.asset('assets/images/antman1.webp'),
-              ),
-            ], options: CarouselOptions(viewportFraction: 0.3),),
+            CarouselSlider(
+              items: [
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/ironman3.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/thor1.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/cap1.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/gog.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/ultron.webp'),
+                ),
+                TextButton(
+                  onPressed: () {},
+                  child: Image.asset('assets/images/antman1.webp'),
+                ),
+              ],
+              options: CarouselOptions(viewportFraction: 0.3),
+            ),
           ],
         ),
         backgroundColor: Colors.black,
