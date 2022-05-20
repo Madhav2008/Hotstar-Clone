@@ -1092,7 +1092,7 @@ class _LangState extends State<Lang> {
                         style: TextStyle(color: Colors.white),
                       ),
                     ],
-                  )
+                  ),
                 ]),
               ],
             ),
