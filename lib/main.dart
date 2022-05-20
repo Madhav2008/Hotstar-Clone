@@ -750,11 +750,13 @@ class _IronmanState extends State<Ironman> {
               'An industrialist constructs a high-tech armoured and decides to use his suit to fight against evil forces and save the world.',
               style: TextStyle(color: Colors.white),
             ),
-            Row(children: [
-              Icon(Icons.add, color: Colors.white),
-              Icon(Icons.facebook, color: Colors.white),
-              Icon(Icons.link, color: Colors.white),
-            ],),
+            Row(
+              children: [
+                Icon(Icons.add, color: Colors.white),
+                Icon(Icons.facebook, color: Colors.white),
+                Icon(Icons.link, color: Colors.white),
+              ],
+            ),
             Text(
               'Trailers & Extras',
               style: TextStyle(color: Colors.white),
