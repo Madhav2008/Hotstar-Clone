@@ -438,19 +438,22 @@ class _MarvelState extends State<Marvel> {
                     viewportFraction: 0.3,
                     initialPage: 1),
               ),
-              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-                Text(
-                  'MCU phase 3&4',
-                  style: TextStyle(color: Colors.white),
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    'more',
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'MCU phase 3&4',
                     style: TextStyle(color: Colors.white),
                   ),
-                ),
-              ],),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      'more',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ],
+              ),
               CarouselSlider(
                   items: [
                     TextButton(
