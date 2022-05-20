@@ -1090,7 +1090,7 @@ class _LangState extends State<Lang> {
                       Text(
                         'Kannada',
                         style: TextStyle(color: Colors.white),
-                      )
+                      ),
                     ],
                   )
                 ]),
