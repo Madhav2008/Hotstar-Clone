@@ -994,7 +994,7 @@ class _LangState extends State<Lang> {
                         style: TextStyle(color: Colors.white),
                       )
                     ],
-                  )
+                  ),
                 ]),
                 Stack(alignment: AlignmentDirectional.center, children: [
                   Container(
