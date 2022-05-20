@@ -61,7 +61,7 @@ class _MyAppState extends State<MyApp> {
       padding: EdgeInsets.all(0),
       shrinkWrap: true,
       children: [
-        // Text('Madhav', style: TextStyle(color: Colors.red, fontSize: 20)),
+        // Text('Madhav', style: TextStyle(color: Colors.red, fontSize: 20),),
         CarouselSlider(
           items: [
             Image.asset(
