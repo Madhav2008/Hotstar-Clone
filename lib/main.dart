@@ -754,7 +754,7 @@ class _IronmanState extends State<Ironman> {
               Icon(Icons.add, color: Colors.white),
               Icon(Icons.facebook, color: Colors.white),
               Icon(Icons.link, color: Colors.white),
-            ]),
+            ],),
             Text(
               'Trailers & Extras',
               style: TextStyle(color: Colors.white),
