@@ -338,9 +338,10 @@ class _MarvelState extends State<Marvel> {
                     ),
                   ],
                   options: CarouselOptions(
-                      enableInfiniteScroll: false,
-                      viewportFraction: 0.3,
-                      initialPage: 1,)),
+                    enableInfiniteScroll: false,
+                    viewportFraction: 0.3,
+                    initialPage: 1,
+                  )),
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Text(
                   'MCU phase 1',
