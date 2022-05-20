@@ -240,7 +240,7 @@ class _DisneyState extends State<Disney> {
               child: Text(
             'Disney page',
             style: TextStyle(color: Colors.red),
-          )),
+          ),),
         ));
   }
 }
