@@ -1034,7 +1034,7 @@ class _LangState extends State<Lang> {
                       Text(
                         'Tamil',
                         style: TextStyle(color: Colors.white),
-                      )
+                      ),
                     ],
                   )
                 ]),
