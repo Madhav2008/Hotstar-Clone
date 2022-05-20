@@ -683,7 +683,7 @@ class _NatState extends State<Nat> {
               style: TextStyle(color: Colors.red),
             ),
           ),
-        ));
+        ),);
   }
 }
 
