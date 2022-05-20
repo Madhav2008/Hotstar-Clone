@@ -360,35 +360,36 @@ class _MarvelState extends State<Marvel> {
                 ],
               ),
               CarouselSlider(
-                  items: [
-                    TextButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/marvel/ironman');
-                      },
-                      child: Image.asset('assets/images/ironman1.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/ironman2.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/thor2.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/cap2.webp'),
-                    ),
-                    TextButton(
-                      onPressed: () {},
-                      child: Image.asset('assets/images/avengers.webp'),
-                    ),
-                  ],
-                  options: CarouselOptions(
-                    enableInfiniteScroll: false,
-                    viewportFraction: 0.3,
-                    initialPage: 1,
-                  ),),
+                items: [
+                  TextButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/marvel/ironman');
+                    },
+                    child: Image.asset('assets/images/ironman1.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/ironman2.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/thor2.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/cap2.webp'),
+                  ),
+                  TextButton(
+                    onPressed: () {},
+                    child: Image.asset('assets/images/avengers.webp'),
+                  ),
+                ],
+                options: CarouselOptions(
+                  enableInfiniteScroll: false,
+                  viewportFraction: 0.3,
+                  initialPage: 1,
+                ),
+              ),
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Text(
                   'MCU phase 2',
