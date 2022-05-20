@@ -904,7 +904,10 @@ class _MyDrawerState extends State<MyDrawer> {
               child: ListTile(
                 contentPadding: EdgeInsets.all(5),
                 leading: Icon(Icons.theater_comedy, color: Colors.white),
-                title: Text('Genres', style: TextStyle(color: Colors.white),),
+                title: Text(
+                  'Genres',
+                  style: TextStyle(color: Colors.white),
+                ),
               ),
               style: TextButton.styleFrom(primary: Colors.white),
             )
