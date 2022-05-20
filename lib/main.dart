@@ -853,7 +853,7 @@ class _MyDrawerState extends State<MyDrawer> {
                     'Watchlist',
                     style: TextStyle(color: Colors.white),
                   ),
-                )),
+                ),),
             TextButton(
                 onPressed: () {},
                 child: ListTile(
