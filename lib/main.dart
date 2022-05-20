@@ -242,7 +242,7 @@ class _DisneyState extends State<Disney> {
               style: TextStyle(color: Colors.red),
             ),
           ),
-        ));
+        ),);
   }
 }
 
