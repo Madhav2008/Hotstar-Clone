@@ -992,7 +992,7 @@ class _LangState extends State<Lang> {
                       Text(
                         'Telugu',
                         style: TextStyle(color: Colors.white),
-                      )
+                      ),
                     ],
                   ),
                 ]),
