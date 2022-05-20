@@ -1192,16 +1192,17 @@ class _BotNavState extends State<BotNav> {
           backgroundColor: Colors.black,
         ),
         BottomNavigationBarItem(
-            icon: SizedBox(
-              height: 30,
-              width: 30,
-              child: ImageIcon(
-                AssetImage(
-                  'assets/images/disicon.png',
-                ),
+          icon: SizedBox(
+            height: 30,
+            width: 30,
+            child: ImageIcon(
+              AssetImage(
+                'assets/images/disicon.png',
               ),
             ),
-            label: 'Disney+',),
+          ),
+          label: 'Disney+',
+        ),
         BottomNavigationBarItem(icon: Icon(Icons.movie), label: 'Movies'),
         BottomNavigationBarItem(
             icon: Icon(
