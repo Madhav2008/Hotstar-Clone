@@ -1186,7 +1186,7 @@ class _BotNavState extends State<BotNav> {
             label: 'Home',
             backgroundColor: Colors.black),
         BottomNavigationBarItem(
-            icon: Icon(Icons.tv), label: 'TV', backgroundColor: Colors.black),
+            icon: Icon(Icons.tv), label: 'TV', backgroundColor: Colors.black,),
         BottomNavigationBarItem(
             icon: SizedBox(
               height: 30,
