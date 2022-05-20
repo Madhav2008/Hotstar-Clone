@@ -89,7 +89,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             FloatingActionButton(
               shape: BeveledRectangleBorder(
-                  borderRadius: BorderRadius.circular(3)),
+                  borderRadius: BorderRadius.circular(3),),
               onPressed: () {
                 Navigator.pushNamed(context, '/disney');
               },
