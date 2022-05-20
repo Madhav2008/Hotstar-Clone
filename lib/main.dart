@@ -643,10 +643,11 @@ class _StarState extends State<Star> {
           ),
           backgroundColor: Colors.black,
           body: Center(
-              child: Text(
-            'StarWars page',
-            style: TextStyle(color: Colors.red),
-          ),),
+            child: Text(
+              'StarWars page',
+              style: TextStyle(color: Colors.red),
+            ),
+          ),
         ));
   }
 }
