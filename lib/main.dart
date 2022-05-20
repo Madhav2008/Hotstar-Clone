@@ -101,7 +101,7 @@ class _MyAppState extends State<MyApp> {
             ),
             FloatingActionButton(
               shape: BeveledRectangleBorder(
-                  borderRadius: BorderRadius.circular(3)),
+                  borderRadius: BorderRadius.circular(3),),
               backgroundColor: Colors.blue[900],
               onPressed: () {
                 Navigator.pushNamed(context, '/pixar');
