@@ -608,7 +608,10 @@ class _PixarState extends State<Pixar> {
           ),
           backgroundColor: Colors.black,
           body: Center(
-              child: Text('Pixar page', style: TextStyle(color: Colors.red),)),
+              child: Text(
+            'Pixar page',
+            style: TextStyle(color: Colors.red),
+          )),
         ));
   }
 }
