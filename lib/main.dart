@@ -1201,7 +1201,7 @@ class _BotNavState extends State<BotNav> {
                 ),
               ),
             ),
-            label: 'Disney+'),
+            label: 'Disney+',),
         BottomNavigationBarItem(icon: Icon(Icons.movie), label: 'Movies'),
         BottomNavigationBarItem(
             icon: Icon(
