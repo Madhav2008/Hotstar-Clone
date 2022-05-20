@@ -1078,7 +1078,7 @@ class _LangState extends State<Lang> {
                       ),
                     ],
                   )
-                ]),
+                ],),
                 Stack(
                   alignment: AlignmentDirectional.center,
                   children: [
