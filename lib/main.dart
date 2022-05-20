@@ -160,7 +160,7 @@ class _MyAppState extends State<MyApp> {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Text('Recommended For You', style: TextStyle(color: Colors.white)),
+            Text('Recommended For You', style: TextStyle(color: Colors.white),),
             TextButton(
               onPressed: () {},
               child: Text('More'),
