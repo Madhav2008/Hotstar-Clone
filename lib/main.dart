@@ -611,7 +611,7 @@ class _PixarState extends State<Pixar> {
               child: Text(
             'Pixar page',
             style: TextStyle(color: Colors.red),
-          )),
+          ),),
         ));
   }
 }
