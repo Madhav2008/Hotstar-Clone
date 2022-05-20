@@ -1077,7 +1077,7 @@ class _LangState extends State<Lang> {
                         'assets/images/PCTV-english.png',
                       ),
                     ],
-                  )
+                  ),
                 ],),
                 Stack(
                   alignment: AlignmentDirectional.center,
