@@ -278,19 +278,22 @@ class _MarvelState extends State<Marvel> {
           body: ListView(
             children: [
               Image.asset('assets/images/marvelbanner.webp'),
-              Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-                Text(
-                  'Marvel Cinematic Universe',
-                  style: TextStyle(color: Colors.white),
-                ),
-                TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    'more',
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    'Marvel Cinematic Universe',
                     style: TextStyle(color: Colors.white),
                   ),
-                ),
-              ],),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      'more',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                ],
+              ),
               CarouselSlider(
                   items: [
                     TextButton(
