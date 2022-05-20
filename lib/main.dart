@@ -517,7 +517,7 @@ class _MarvelState extends State<Marvel> {
                     enableInfiniteScroll: false,
                     viewportFraction: 0.3,
                     initialPage: 1,
-                  )),
+                  ),),
               Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
                 Text(
                   'Marvel Legacy Animation',
