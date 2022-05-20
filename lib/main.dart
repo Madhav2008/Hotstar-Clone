@@ -530,7 +530,7 @@ class _MarvelState extends State<Marvel> {
                     'more',
                     style: TextStyle(color: Colors.white),
                   ),
-                )
+                ),
               ]),
               CarouselSlider(
                   items: [
