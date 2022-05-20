@@ -2,44 +2,46 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-    routes: {
-      // '/': (context) => LoginPage(),
-      // '/homepage': (context) => MyApp(),
-      '/marvel': (context) => Marvel(),
-      '/disney': (context) => Disney(),
-      '/pixar': (context) => Pixar(),
-      '/starwars': (context) => Star(),
-      '/natgeo': (context) => Nat(),
-      '/marvel/ironman': (context) => Ironman(),
-      '/languages': (context) => Lang(),
-    },
-    debugShowCheckedModeBanner: false,
-    home: Scaffold(
-      body: MyApp(),
-      drawer: MyDrawer(),
-      bottomNavigationBar: BotNav(),
-      backgroundColor: Colors.black,
-      appBar: AppBar(
+  runApp(
+    MaterialApp(
+      routes: {
+        // '/': (context) => LoginPage(),
+        // '/homepage': (context) => MyApp(),
+        '/marvel': (context) => Marvel(),
+        '/disney': (context) => Disney(),
+        '/pixar': (context) => Pixar(),
+        '/starwars': (context) => Star(),
+        '/natgeo': (context) => Nat(),
+        '/marvel/ironman': (context) => Ironman(),
+        '/languages': (context) => Lang(),
+      },
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: MyApp(),
+        drawer: MyDrawer(),
+        bottomNavigationBar: BotNav(),
         backgroundColor: Colors.black,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Image.asset(
-              "../assets/images/dishot.png",
-              height: 100,
-              width: 100,
-            ),
-            FloatingActionButton(
-              onPressed: () {},
-              child: Icon(Icons.search),
-              backgroundColor: Colors.black,
-            )
-          ],
+        appBar: AppBar(
+          backgroundColor: Colors.black,
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Image.asset(
+                "../assets/images/dishot.png",
+                height: 100,
+                width: 100,
+              ),
+              FloatingActionButton(
+                onPressed: () {},
+                child: Icon(Icons.search),
+                backgroundColor: Colors.black,
+              )
+            ],
+          ),
         ),
       ),
     ),
-  ),);
+  );
 }
 
 class MyApp extends StatefulWidget {
