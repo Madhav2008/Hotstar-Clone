@@ -681,7 +681,7 @@ class _NatState extends State<Nat> {
               child: Text(
             'Natgeo page',
             style: TextStyle(color: Colors.red),
-          )),
+          ),),
         ));
   }
 }
