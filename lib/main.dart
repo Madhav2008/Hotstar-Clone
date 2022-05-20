@@ -613,7 +613,7 @@ class _PixarState extends State<Pixar> {
               style: TextStyle(color: Colors.red),
             ),
           ),
-        ));
+        ),);
   }
 }
 
