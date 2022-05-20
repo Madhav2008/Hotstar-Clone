@@ -1120,7 +1120,7 @@ class _LangState extends State<Lang> {
                 )
               ],
             ),
-          )),
+          ),),
       debugShowCheckedModeBanner: false,
     );
   }
