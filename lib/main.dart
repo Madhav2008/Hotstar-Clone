@@ -573,7 +573,7 @@ class _MarvelState extends State<Marvel> {
                   options: CarouselOptions(
                       enableInfiniteScroll: false,
                       viewportFraction: 0.3,
-                      initialPage: 1)),
+                      initialPage: 1,)),
             ],
           ),
         ));
