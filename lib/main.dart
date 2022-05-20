@@ -1052,7 +1052,7 @@ class _LangState extends State<Lang> {
                       Image.asset(
                         'assets/images/PCTV-malayalam.png',
                       ),
-                      Text('Malayalam', style: TextStyle(color: Colors.white))
+                      Text('Malayalam', style: TextStyle(color: Colors.white),)
                     ],
                   )
                 ]),
