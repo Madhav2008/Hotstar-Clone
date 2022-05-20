@@ -856,23 +856,24 @@ class _MyDrawerState extends State<MyDrawer> {
               ),
             ),
             TextButton(
-                onPressed: () {},
-                child: ListTile(
-                  leading: Text(
-                    'KIDS Safe',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                  trailing: Switch(
-                    inactiveThumbColor: Colors.white,
-                    inactiveTrackColor: Colors.white,
-                    onChanged: (value) {
-                      setState(() {
-                        val = value;
-                      });
-                    },
-                    value: val,
-                  ),
-                ),),
+              onPressed: () {},
+              child: ListTile(
+                leading: Text(
+                  'KIDS Safe',
+                  style: TextStyle(color: Colors.white),
+                ),
+                trailing: Switch(
+                  inactiveThumbColor: Colors.white,
+                  inactiveTrackColor: Colors.white,
+                  onChanged: (value) {
+                    setState(() {
+                      val = value;
+                    });
+                  },
+                  value: val,
+                ),
+              ),
+            ),
             TextButton(
               onPressed: () {},
               child: ListTile(
