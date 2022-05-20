@@ -1099,7 +1099,7 @@ class _LangState extends State<Lang> {
                 ),
               ],
             ),
-          ]),
+          ],),
           drawer: MyDrawer(),
           appBar: AppBar(
             backgroundColor: Colors.black,
