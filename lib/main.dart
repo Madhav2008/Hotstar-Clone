@@ -574,7 +574,7 @@ class _MarvelState extends State<Marvel> {
                     enableInfiniteScroll: false,
                     viewportFraction: 0.3,
                     initialPage: 1,
-                  )),
+                  ),),
             ],
           ),
         ));
