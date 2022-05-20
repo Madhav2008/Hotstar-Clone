@@ -1182,9 +1182,10 @@ class _BotNavState extends State<BotNav> {
       backgroundColor: Colors.black,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-            icon: Icon(Icons.home),
-            label: 'Home',
-            backgroundColor: Colors.black,),
+          icon: Icon(Icons.home),
+          label: 'Home',
+          backgroundColor: Colors.black,
+        ),
         BottomNavigationBarItem(
           icon: Icon(Icons.tv),
           label: 'TV',
