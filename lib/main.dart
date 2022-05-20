@@ -736,7 +736,10 @@ class _IronmanState extends State<Ironman> {
                   onPressed: () {},
                   child: Text('Superhero.'),
                 ),
-                TextButton(onPressed: () {}, child: Text('English.'),),
+                TextButton(
+                  onPressed: () {},
+                  child: Text('English.'),
+                ),
                 Text(
                   '2008.U/A 13+',
                   style: TextStyle(color: Colors.white),
