@@ -796,7 +796,7 @@ class _IronmanState extends State<Ironman> {
                 onPressed: () {},
                 child: Image.asset('assets/images/antman1.webp'),
               ),
-            ], options: CarouselOptions(viewportFraction: 0.3)),
+            ], options: CarouselOptions(viewportFraction: 0.3),),
           ],
         ),
         backgroundColor: Colors.black,
