@@ -39,7 +39,7 @@ void main() {
         ),
       ),
     ),
-  ));
+  ),);
 }
 
 class MyApp extends StatefulWidget {
