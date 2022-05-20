@@ -1211,7 +1211,7 @@ class _BotNavState extends State<BotNav> {
             icon: Icon(
               Icons.sports_cricket_rounded,
             ),
-            label: 'Sports'),
+            label: 'Sports',),
       ],
     );
   }
